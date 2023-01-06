@@ -132,3 +132,74 @@ margin-left: 45% ;
 margin-bottom: 50px;
 
 }
+/* donate plan section style */
+.donate-plan{
+    margin: 0px 10%;
+}
+.plan-title{
+    font-family:'Inter';
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+.plan-description{
+    font-family: 'poppins';
+    color: #707070;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    padding: 0px 200px;
+    margin: 50px 0px;
+}
+.plan-container{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+.plan-part1{
+    margin: 15px;
+    padding: 20px;
+    background-color: rgba(210, 237, 248, 0.764);
+    width: 60%;
+    height: 350px;
+    border-radius: 5px;
+
+}
+.plan-part2{
+    margin: 15px;
+    padding: 20px;
+    background-color: rgb(240, 223, 223);
+    width: 60%;
+    height: 350px;
+    border-radius: 5px;
+}
+.plan-part3{
+    margin: 15px;
+    padding: 20px;
+    background-color: rgb(246, 229, 180);
+    width: 60%;
+    height: 350px;
+    border-radius: 5px;
+}
+.plan-container img{
+    padding-top: 50px ;
+    padding-bottom: 40px;
+    width: 80px;
+}
+.plan-sub-title{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+padding-bottom: 16px;
+}
+.plan-sub-description{
+    font-family: 'poppins';
+    color: #707070;
+    font-size: 18px;
+}
