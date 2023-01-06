@@ -203,3 +203,31 @@ padding-bottom: 16px;
     color: #707070;
     font-size: 18px;
 }
+.contribute{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin: 0px 10%;
+}
+.text-side{
+
+}
+.contribute-title{
+    font-family:'Inter';
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 150px;
+    
+}
+.contribute-description{
+    font-family: 'poppins';
+    color: #707070;
+    font-size: 18px;
+    margin: 10px 0px;
+}
+.img-side{
+    padding-left: 20px; 
+    margin-top: 150px;
+
+}
