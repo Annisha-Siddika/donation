@@ -17,7 +17,6 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    padding: 0 5%;
 }
 
 .texts {
@@ -33,7 +32,9 @@
     font-family: 'Inter';
     font-size: 65px;
     font-weight: 700;
-    color: #ffffff;
+    color: #fbf7f7;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
 }
 
 .description {
@@ -55,4 +56,79 @@
     font-weight: 600;
     font-size: 20px;
     
+}
+/* main section */
+main{
+    margin-top: 130px;
+}
+.d-amount{
+    align-items: center;
+}
+.amount-title{
+    font-family:'Inter';
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.amount-description{
+    font-family: 'poppins';
+    color: #707070;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    padding: 0px 450px;
+    margin: 25px 0px;
+}
+.amount-box{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    font-family: 'Inter';
+}
+.price{
+    font-weight: 700;
+    font-size: 35px;
+    color: #707070;
+    background: #f3ecec;
+    border: 2px solid rgba(255, 255, 255, 0);
+    padding: 45px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.clicked {
+    background-color: #FFEEEE !important;
+    color: #FF5959;
+    border: 2px solid #FF5959 !important;
+}
+.price:hover{
+    background-color: #FFEEEE;
+    color: #FF5959;
+    border: 2px solid #FF5959;
+}
+.other-amount input{
+    width: 55%;
+    text-align: center;
+    padding: 6px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #afa9a9;
+    font-size: 30px;
+    color: #8f8d8d;
+    margin-left: 22%;
+}
+.donate{
+align-items: center;
+margin-left: 45% ;
+margin-bottom: 50px;
+
 }
